@@ -37,7 +37,7 @@
         "n8nNodesApiVersion": 1,
         "credentials": [
             "dist/credentials/n8n-nodes-mautic/MauticRestApi.credentials.js",
-            "dist/credentials/n8n-nodes-mautic/MauticOAuth2RestApi.credentials.ts"
+            "dist/credentials/n8n-nodes-mautic/MauticOAuth2RestApi.credentials.js"
         ],
         "nodes": [
             "dist/nodes/n8n-nodes-mautic/MauticRest.node.js"
