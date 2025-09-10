@@ -1,4 +1,4 @@
-import { MauticRest as Mautic } from '../../nodes/n8n-nodes-mautic/Mautic.node';
+import { MauticRest as Mautic } from '../../nodes/n8n-nodes-mautic/MauticRest.node';
 
 // Mock the GenericFunctions module
 jest.mock('../../nodes/n8n-nodes-mautic/GenericFunctions', () => ({
@@ -9,7 +9,7 @@ jest.mock('../../nodes/n8n-nodes-mautic/GenericFunctions', () => ({
 
 import { mauticApiRequest } from '../../nodes/n8n-nodes-mautic/GenericFunctions';
 
-describe('Mautic Node', () => {
+describe('MauticRest Node', () => {
   let node: Mautic;
   let mockContext: any;
 
