@@ -766,4 +766,4 @@ class MauticRest {
     }
 }
 exports.MauticRest = MauticRest;
-//# sourceMappingURL=Mautic.node.js.map
+//# sourceMappingURL=MauticRest.node.js.map

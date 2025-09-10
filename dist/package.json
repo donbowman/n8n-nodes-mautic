@@ -40,7 +40,7 @@
             "dist/credentials/n8n-nodes-mautic/MauticOAuth2RestApi.credentials.ts"
         ],
         "nodes": [
-            "dist/nodes/n8n-nodes-mautic/Mautic.node.js"
+            "dist/nodes/n8n-nodes-mautic/MauticRest.node.js"
         ]
     },
     "devDependencies": {
